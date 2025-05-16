@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Temas */
+.theme-default {
+  --bg-main: #1e293b;
+  --bg-panel: #222b3a;
+  --text-main: #f1f5f9;
+  --accent: #2563eb;
+}
+.theme-dark {
+  --bg-main: #111827;
+  --bg-panel: #23272f;
+  --text-main: #e5e7eb;
+  --accent: #374151;
+}
+.theme-solarized {
+  --bg-main: #002b36;
+  --bg-panel: #073642;
+  --text-main: #fdf6e3;
+  --accent: #b58900;
+}
+.theme-dracula {
+  --bg-main: #282a36;
+  --bg-panel: #44475a;
+  --text-main: #f8f8f2;
+  --accent: #bd93f9;
+}
+.theme-gruvbox {
+  --bg-main: #282828;
+  --bg-panel: #3c3836;
+  --text-main: #ebdbb2;
+  --accent: #fabd2f;
+}
+.theme-nord {
+  --bg-main: #2e3440;
+  --bg-panel: #3b4252;
+  --text-main: #eceff4;
+  --accent: #88c0d0;
+}
+
+/* Aplicação das variáveis */
+body, html {
+  background: var(--bg-main);
+  color: var(--text-main);
+  transition: background 0.3s, color 0.3s;
+}
+
+
+/* Personalização da barra de rolagem para todas as janelas */
+.flex-1::-webkit-scrollbar,
+.overflow-auto::-webkit-scrollbar {
+  width: 10px;
+  background: var(--bg-panel);
+  border-radius: 8px;
+}
+
+.flex-1::-webkit-scrollbar-thumb,
+.overflow-auto::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 8px;
+  border: 2px solid var(--bg-panel);
+}
+
+.flex-1::-webkit-scrollbar-thumb:hover,
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+  opacity: 0.8;
+}
+
+/* Firefox */
+.flex-1,
+.overflow-auto {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--bg-panel);
+}
