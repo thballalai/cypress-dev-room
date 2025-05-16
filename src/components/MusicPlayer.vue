@@ -86,32 +86,32 @@ const playlist = [
   {
     title: 'Cruising',
     artist: 'Aisake, Dosi',
-    src: 'src/assets/Aisake, Dosi - Cruising [NCS Release].mp3'
+    src: 'musics/Aisake, Dosi - Cruising [NCS Release].mp3'
   },
   {
     title: 'apart',
     artist: 'Sumu',
-    src: 'src/assets/sumu - apart [NCS Release].mp3'
+    src: 'musics/sumu - apart [NCS Release].mp3'
   },
   {
     title: 'Rainy Lofi CIty',
     artist:'Kaveesha Senanayake',
-    src: 'src/assets/rainy-lofi-city-lofi-music-332746.mp3'
+    src: 'musics/rainy-lofi-city-lofi-music-332746.mp3'
   },
   {
     title: 'Coffee Lofi',
     artist: 'Kaveesha Senanayake',
-    src: 'src/assets/coffee-lofi-chill-lofi-music-332738.mp3'
+    src: 'musics/coffee-lofi-chill-lofi-music-332738.mp3'
   },
   {
     title: 'Spring Lofi Vibes',
     artist: 'Kaveesha Senanayake',
-    src: 'src/assets/spring-lofi-vibes-lofi-music-340019.mp3'
+    src: 'musics/spring-lofi-vibes-lofi-music-340019.mp3'
   },
   {
     title: 'Sakura Lofi',
     artist: 'Kaveesha Senanayake',
-    src: 'src/assets/sakura-lofi-ambient-lofi-music-340018.mp3'
+    src: 'musics/sakura-lofi-ambient-lofi-music-340018.mp3'
   }
 ]
 

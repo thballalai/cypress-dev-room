@@ -40,19 +40,10 @@
             <b>Notas Rápidas:</b> Bloco para anotações rápidas, ideias ou lembretes.
           </li>
           <li>
-            <b>Modo Foco:</b> Ambiente minimalista para concentração total.
-          </li>
-          <li>
             <b>Snippets de Código:</b> Salve e consulte trechos de código úteis.
           </li>
           <li>
-            <b>Configurações:</b> Ajuste preferências do ambiente Dev Room.
-          </li>
-          <li>
             <b>Checklist de Deploy:</b> Lista de verificação para garantir um deploy seguro.
-          </li>
-          <li>
-            <b>Extensões:</b> Adicione funcionalidades extras ao seu ambiente.
           </li>
           <li>
             <b>Pomodoro:</b> Técnica de produtividade baseada em ciclos de foco e pausa.
@@ -80,6 +71,16 @@
           <b>Sobre o autor:</b><br>
           Meu nome é Lucas, sou desenvolvedor apaixonado por criar soluções que facilitam a vida de outros devs. Gosto de experimentar novas tecnologias, compartilhar conhecimento e construir ambientes produtivos e agradáveis para todos.
         </p>
+        <div class="mt-4 flex flex-col gap-2 text-pink-300 text-sm">
+          <a href="https://github.com/Lucas19Alves" target="_blank" class="hover:underline hover:text-pink-400">
+            <font-awesome-icon icon="fa-brands fa-github" class="mr-1" />
+            Meu GitHub
+          </a>
+          <a href="https://portifolio-2-0.vercel.app/" target="_blank" class="hover:underline hover:text-pink-400">
+            <font-awesome-icon icon="fa-solid fa-globe" class="mr-1" />
+            Meu Portfólio
+          </a>
+        </div>
       </div>
     </div>
   </div>
