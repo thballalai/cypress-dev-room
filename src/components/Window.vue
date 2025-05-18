@@ -51,7 +51,8 @@ const props = defineProps({
   y: Number,
   zIndex: Number,
   width: { type: Number, default: 400 },
-  height: { type: Number, default: 300 }
+  height: { type: Number, default: 300 },
+  containerSelector: { type: String, default: null }
 })
 const emit = defineEmits(['update:position', 'bringToFront', 'close', 'update:size'])
 
@@ -89,8 +90,23 @@ function startDrag(e) {
 
 function onDrag(e) {
   if (!dragging.value) return
-  pos.value.x = e.clientX - dragOffset.value.x
-  pos.value.y = e.clientY - dragOffset.value.y
+
+  let newX = e.clientX - dragOffset.value.x
+  let newY = e.clientY - dragOffset.value.y
+
+  // Limite dentro do container
+  if (props.containerSelector) {
+    const container = document.querySelector(props.containerSelector)
+    if (container) {
+      const rect = container.getBoundingClientRect()
+      // Use size.value.width e size.value.height para o tamanho da janela
+      newX = Math.max(0, Math.min(newX, rect.width - size.value.width))
+      newY = Math.max(0, Math.min(newY, rect.height - size.value.height))
+    }
+  }
+
+  pos.value.x = newX
+  pos.value.y = newY
   emit('update:position', { x: pos.value.x, y: pos.value.y })
 }
 

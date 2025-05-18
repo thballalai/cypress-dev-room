@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col p-6 min-w-[320px] max-w-[520px] h-[400px]">
+  <div class="flex flex-col items-center justify-center mx-auto p-6 min-w-[320px] max-w-[400px] w-full sm:items-start sm:justify-start">
     <h2 class="text-xl font-bold mb-4 text-pink-300">Documentação</h2>
     <div class="flex gap-2 mb-4">
       <button
@@ -22,16 +22,17 @@
           Bem-vindo à documentação do <b>Dev Room</b>! Aqui você encontra informações sobre como utilizar cada funcionalidade do sistema para aumentar sua produtividade.
         </p>
         <ul class="list-disc ml-5 mt-2">
-          <li>Abra ferramentas pelo dock na parte inferior da tela.</li>
-          <li>Arraste e organize as janelas conforme sua preferência.</li>
+          <li>Abra ferramentas pelo dock na parte inferior da tela (desktop) ou pelo menu lateral (mobile).</li>
+          <li>No desktop, arraste e organize as janelas conforme sua preferência. No mobile, navegue entre as ferramentas pelo menu.</li>
           <li>Personalize o ambiente com temas e extensões.</li>
-          <li>Gerencie tarefas, notas, timers e muito mais em um só lugar.</li>
+          <li>Gerencie tarefas, notas, timers, pomodoro, snippets, checklist de deploy, lembretes de água, player de música, gerador de dados e muito mais em um só lugar.</li>
+          <li>Seu progresso e configurações são salvos automaticamente no navegador.</li>
         </ul>
       </div>
       <div v-else-if="currentTab === 'Janelas'">
         <ul class="list-disc ml-5">
           <li>
-            <b>Timer:</b> Cronômetro simples para medir tempo de atividades. Permite iniciar, pausar e resetar.
+            <b>Timer:</b> Cronômetro simples para medir tempo de atividades. Permite iniciar, pausar e resetar. O timer continua mesmo se a janela for fechada.
           </li>
           <li>
             <b>To-Do List:</b> Lista de tarefas com salvamento automático no seu navegador. Marque tarefas como concluídas ou exclua-as.
@@ -40,13 +41,16 @@
             <b>Notas Rápidas:</b> Bloco para anotações rápidas, ideias ou lembretes.
           </li>
           <li>
-            <b>Snippets de Código:</b> Salve e consulte trechos de código úteis.
+            <b>Snippets de Código:</b> Salve e consulte trechos de código úteis. Integração opcional com Gists do GitHub.
           </li>
           <li>
-            <b>Checklist de Deploy:</b> Lista de verificação para garantir um deploy seguro.
+            <b>Checklist de Deploy:</b> Lista de verificação para garantir um deploy seguro. Personalize e salve seus próprios itens.
           </li>
           <li>
-            <b>Pomodoro:</b> Técnica de produtividade baseada em ciclos de foco e pausa.
+            <b>Pomodoro:</b> Técnica de produtividade baseada em ciclos de foco e pausa. O ciclo continua mesmo se a janela for fechada.
+          </li>
+          <li>
+            <b>Lembrete de Água:</b> Defina intervalos para ser lembrado de beber água. O lembrete continua funcionando mesmo se a janela for fechada.
           </li>
           <li>
             <b>Busca:</b> Pesquise rapidamente entre suas notas, tarefas e códigos.
@@ -56,6 +60,9 @@
           </li>
           <li>
             <b>Player de Música:</b> Ouça músicas para relaxar ou focar durante o trabalho.
+          </li>
+          <li>
+            <b>Gerador de Dados:</b> Gere dados fake para testes de desenvolvimento.
           </li>
         </ul>
       </div>

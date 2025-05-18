@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center p-6 min-w-[320px] max-w-[400px]">
+  <div class="flex flex-col items-center justify-center mx-auto p-6 min-w-[320px] max-w-[400px] w-full sm:items-start sm:justify-start">
     <h2 class="text-xl font-bold mb-4 text-green-400">Checklist de Deploy</h2>
     <form @submit.prevent="addItem" class="flex gap-2 mb-4 w-full">
       <input

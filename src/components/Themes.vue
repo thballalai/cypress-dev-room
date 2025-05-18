@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center p-6 min-w-[320px] max-w-[400px]">
+  <div class="flex flex-col items-center justify-center mx-auto p-6 min-w-[320px] max-w-[400px] w-full sm:items-start sm:justify-start">
     <h2 class="text-xl font-bold mb-4 text-blue-300">Temas</h2>
     <div class="grid grid-cols-2 gap-4 w-full">
       <button

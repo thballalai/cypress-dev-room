@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col p-6 min-w-[340px] max-w-[700px] h-[500px]">
-    <h2 class="text-xl font-bold mb-4 text-blue-400">Snippets de Código</h2>
+    <h2 class="text-xl font-bold mb-4 text-fuchsia-400">Snippets de Código</h2>
     <form @submit.prevent="addSnippet" class="flex flex-col sm:flex-row gap-2 mb-4">
       <input
         v-model="newSnippet.title"
@@ -19,7 +19,7 @@
       </select>
       <button
         type="submit"
-        class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded transition"
+        class="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-4 py-2 rounded transition"
       >
         Adicionar
       </button>
@@ -41,12 +41,12 @@
       <div
         v-for="(snippet, idx) in filteredSnippets"
         :key="snippet.id"
-        class="mb-4 p-4 rounded-lg shadow bg-gray-800 border border-blue-900 relative"
+        class="mb-4 p-4 rounded-lg shadow bg-gray-800 border border-fuchsia-900 relative"
       >
         <div class="flex justify-between items-center mb-2">
           <div>
-            <span class="font-bold text-blue-300">{{ snippet.title }}</span>
-            <span class="ml-2 px-2 py-1 rounded text-xs bg-blue-900 text-blue-200">{{ snippet.language }}</span>
+            <span class="font-bold text-fuchsia-300">{{ snippet.title }}</span>
+            <span class="ml-2 px-2 py-1 rounded text-xs bg-fuchsia-900 text-fuchsia-200">{{ snippet.language }}</span>
           </div>
           <div class="flex gap-2">
             <button
@@ -79,8 +79,8 @@
       </div>
     </div>
     <div v-if="editingIdx !== null" class="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
-      <div class="bg-gray-900 border border-blue-700 rounded-lg p-6 w-full max-w-lg">
-        <h3 class="text-lg font-bold mb-4 text-blue-300">Editar Snippet</h3>
+      <div class="bg-gray-900 border border-fuchsia-700 rounded-lg p-6 w-full max-w-lg">
+        <h3 class="text-lg font-bold mb-4 text-fuchsia-300">Editar Snippet</h3>
         <input
           v-model="editSnippetData.title"
           type="text"
@@ -100,7 +100,7 @@
           rows="5"
         ></textarea>
         <div class="flex gap-2 justify-end">
-          <button @click="saveEdit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">Salvar</button>
+          <button @click="saveEdit" class="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-4 py-2 rounded">Salvar</button>
           <button @click="cancelEdit" class="bg-gray-700 hover:bg-gray-800 text-white px-4 py-2 rounded">Cancelar</button>
         </div>
       </div>
