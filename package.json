@@ -28,6 +28,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
     "cypress": "^14.4.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
     "vite": "^6.2.0"
   }
 }
