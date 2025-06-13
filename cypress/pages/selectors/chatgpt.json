@@ -1,0 +1,22 @@
+{
+    "window" : {
+        "screen" : "#window-busca",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Busca"
+        },
+        "main" : "#search-main"
+    },
+    "config" : {
+        "selector" : "#chatgptapi-config",
+        "input-key" : "#chatgptapi-key"
+    },
+    "form" : {
+        "selector" : "#chatgptapi-form",
+        "inputPrompt" : "#chatgptapi-messages",
+        "btnSend" : "#chatgptapi-send-btn",
+        "btnClear" : "#chatgptapi-clear-btn"
+    },
+    "answer" : "#chatgptapi-messages"
+
+}

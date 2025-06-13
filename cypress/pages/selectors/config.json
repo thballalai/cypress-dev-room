@@ -1,0 +1,56 @@
+{
+    "window" : {
+        "screen" : "#window-configurações",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Configurações"
+        },
+        "main" : "#config-main"
+    },
+    "user" : {
+        "section" : "#config-user-section",
+        "form" : {
+            "selector" : "#config-user-input-group",
+            "input-name" : "#config-user-input",
+            "btnSave" : "#config-user-save-btn"
+        }
+    },
+    "theme" : {
+        "section" : "#config-theme-section",
+        "list" : {
+            "selector" : "#config-theme-list",
+            "options" : {
+                "default" : "#config-theme-btn-theme-default",
+                "dark" : "#config-theme-btn-theme-dark",
+                "solarized" : "#config-theme-btn-theme-solarized",
+                "dracula" : "#config-theme-btn-theme-dracula",
+                "gruvbox" : "#config-theme-btn-theme-gruvbox",
+                "nord" : "#config-theme-btn-theme-nord",
+                "monokai" : "#config-theme-btn-theme-monokai",
+                "one-dark" : "#config-theme-btn-theme-onedark",
+                "night-owl" : "#config-theme-btn-theme-nightowl",
+                "palenight" : "#config-theme-btn-theme-palenight"
+            }
+        }
+    },
+    "wallpaper" : {
+        "section" : "#config-wallpaper-section"
+    },
+    "documentation" : {
+        "section" : "#config-doc-section",
+        "tabs" : {
+            "general" : {
+                "selector" : "#config-doc-tab-btn-Visão Geral",
+                "content" : "#config-doc-intro"
+            },
+            "funcionality" : {
+                "selector" : "#config-doc-tab-btn-Funcionalidades",
+                "content" : "#config-doc-windows"
+            },
+            "about" : {
+                "selector" : "#config-doc-tab-btn-Sobre & Contato",
+                "content" : "#config-doc-about"
+            }
+        }
+    }
+}

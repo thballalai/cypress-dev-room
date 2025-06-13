@@ -1,0 +1,34 @@
+{
+    "window" : {
+        "screen" : "#window-lembrete-de-água",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Lembrete de Água"
+        },
+        "main" : "#water-reminder-main"
+    },
+    "title" : {
+        "selector" : "#water-reminder-title",
+        "text" : "Lembrete de Beber Água"
+    },
+    "form" : {
+        "selector" : "#water-reminder-form",
+        "inputTime" : "#water-reminder-interval-input",
+        "btnSave" : "#water-reminder-save-btn",
+        "btnPlay" : "#water-reminder-toggle-btn"
+    },
+    "reminder" : {
+        "selector" : "#water-reminder-next",
+        "time-left" : "#water-reminder-timeleft",
+        "btnDrink" : "#water-reminder-drink-btn",
+        "inputQuantity" : "#water-reminder-amount-group"
+    },
+    "history" : {
+        "selector" : "#water-reminder-history",
+        "list" : {
+            "selector" : "#water-reminder-history-list",
+            "empty" : "#water-reminder-history-empty"
+        },
+        "total" : "#water-reminder-total-today"
+    }
+}

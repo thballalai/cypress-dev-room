@@ -1,0 +1,52 @@
+{
+    "status-bar" : {
+        "me-apoie" : "#support-btn",
+        "user-message" : "#status-bar-user > h1",
+        "user" : "#status-bar-user > h1 > span",
+        "logout" : "#status-bar-login-btn",
+        "clock" : "#status-bar-clock"
+    },
+    "desktop" : {
+        "pausa" : "#pause-btn-desktop-container",
+        "window-header" : {
+            "selector" : "#window-title"
+        },
+        "actions" : {
+            "minimize" : "#window-btn-minimize",
+            "maximize" : "#window-btn-maximize",
+            "close" : "window-btn-close"
+        }
+    },
+    "window":{
+        "timer": "#timer-main",
+        "music-player": "#musicplayer-main",
+        "todo-list" : "#todo-main",
+        "kanban" : "#kanban-main",
+        "quicknotes" : "#quicknotes-main",
+        "snippets" : "#codesnippets-main",
+        "github-features" : "#window-content",
+        "deploy" : "#deploy-main",
+        "pomodoro" : "#pomodoro-main",
+        "chat-gpt" : "#chatgptapi-main",
+        "search" : "#search-main",
+        "water-reminder" : "#water-reminder-main",
+        "fake-data" : "#fakedata-main",
+        "config" : "#config-main"
+    },
+    "navbar" : {
+        "timer" : "#desktop-dock-icon-Timer",
+        "music-player" : "#desktop-dock-icon-MusicPlayer",
+        "todo-list" : "#desktop-dock-icon-TodoList",
+        "kanban" : "#desktop-dock-icon-Kanban",
+        "quicknotes" : "#desktop-dock-icon-QuickNotes",
+        "snippets" : "#desktop-dock-icon-CodeSnippets",
+        "github-features" : "#desktop-dock-icon-GithubFeatures",
+        "deploy" : "#desktop-dock-icon-DeployChecklist",
+        "pomodoro" : "#desktop-dock-icon-Pomodoro",
+        "chat-gpt" : "#desktop-dock-icon-ChatGPTApi",
+        "search" : "#desktop-dock-icon-Search",
+        "water-reminder" : "#desktop-dock-icon-WaterReminder",
+        "fake-data" : "#desktop-dock-icon-FakeDataGenerator",
+        "config" : "#desktop-dock-icon-Config"
+    }
+}

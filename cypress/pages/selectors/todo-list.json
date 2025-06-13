@@ -1,0 +1,17 @@
+{
+    "window" : {
+        "screen" : "#window-to-do-list",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "To-Do List"
+        },
+        "main" : "#todo-main"
+    },
+    "title" : "#todo-title",
+    "input" : "#todo-input",
+    "btnAdd" : "#todo-add-btn",
+    "list" : "#todo-list",
+    "list-item" : {
+        "empty" : "#todo-empty"
+    }
+}

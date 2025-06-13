@@ -1,0 +1,19 @@
+{
+    "window" : {
+        "screen" : "#window-timer",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Timer"
+        },
+        "main" : "#timer-main"
+    },
+    "title" : "#timer-title",
+    "input" : {
+        "minutes" : "#timer-input-minutes",
+        "seconds" : "#timer-input-seconds",
+        "btnSet" : "#timer-set-btn"
+    },
+    "display" : "#timer-display",
+    "btnPlay" : "#timer-toggle-btn",
+    "btnReset" : "#timer-reset-btn"
+}

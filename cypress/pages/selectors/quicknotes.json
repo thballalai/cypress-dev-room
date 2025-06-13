@@ -1,0 +1,20 @@
+{
+    "window" : {
+        "screen" : "#window-notas-rápidas",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Notas Rápidas"
+        },
+        "main" : "#quicknotes-main"
+    },
+    "title" : "#quicknotes-title",
+    "form" : {
+        "selector" : "#quicknotes-form",
+        "input" : "#quicknotes-input",
+        "btnAdd" : "#quicknotes-add-btn"
+    },
+    "list" : {
+        "empty" : "#quicknotes-empty"
+    }
+
+}
