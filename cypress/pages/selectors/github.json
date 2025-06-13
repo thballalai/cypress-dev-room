@@ -1,0 +1,10 @@
+{
+    "window" : {
+        "screen" : "#window-funcionalidades-do-github",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Funcionalidades do GitHub"
+        },
+        "main" : ""
+    }
+}

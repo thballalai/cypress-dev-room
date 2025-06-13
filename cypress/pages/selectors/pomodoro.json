@@ -1,0 +1,36 @@
+{
+    "window" : {
+        "screen" : "#window-pomodoro",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Pomodoro"
+        },
+        "main" : "#pomodoro-main"
+    },
+    "title" : {
+        "selector" : "#pomodoro-title",
+        "text" : "Pomodoro"
+    },
+    "form" : {
+        "selector" : "#pomodoro-form",
+        "minutes" : "#pomodoro-input-focus",
+        "seconds" : "#pomodoro-input-break",
+        "btnSave" : "#pomodoro-save-btn"
+    },
+    "stage" : {
+        "selector" : "#pomodoro-stage",
+        "text" : {
+            "foco" : "Foco",
+            "pausa" : "Pausa"
+        }
+    },
+    "timer" : "#pomodoro-timer",
+    "motivacional" : "#pomodoro-motivation",
+    "actions" : {
+        "selector" : "#pomodoro-actions",
+        "btnPlay" : "#pomodoro-toggle-btn",
+        "bntReset" : "#pomodoro-reset-btn",
+        "btnSkip" : "#pomodoro-skip-btn"
+    },
+    "cycle" : "#pomodoro-cycle"
+}

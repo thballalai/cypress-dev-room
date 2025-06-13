@@ -1,0 +1,38 @@
+{
+    "window" : {
+        "screen" : "#window-snippets-de-código",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Snippets de Código"
+        },
+        "main" : "#codesnippets-main"
+    },
+    "title" : {
+        "selector" : "#codesnippets-title",
+        "text" : "Snippets de Código"
+    },
+    "form" : {
+        "selector" : "#codesnippets-form",
+        "input-title" : "#codesnippets-input-title",
+        "language" : "#codesnippets-select-language",
+        "language-options" : {
+            "javascript" : "#codesnippets-option-javascript",
+            "python" : "#codesnippets-option-python",
+            "bash" : "#codesnippets-option-bash",
+            "json" : "#codesnippets-option-json",
+            "xml" : "#codesnippets-option-xml",
+            "css" : "#codesnippets-option-css",
+            "sql" : "#codesnippets-option-sql",
+            "markdown" : "#codesnippets-option-markdown",
+            "java" : "#codesnippets-option-java"
+        },
+        "input-code" : "#codesnippets-input-code",
+        "btnAdd" : "#codesnippets-add-btn"
+    },
+    "search" : "#codesnippets-search",
+    "list" : {
+        "selector" : "#codesnippets-list",
+        "empty" : "#codesnippets-empty"
+    }
+
+}

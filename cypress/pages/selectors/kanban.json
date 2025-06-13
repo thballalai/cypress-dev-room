@@ -1,0 +1,12 @@
+{
+    "window" : {
+        "screen" : "#window-kanban",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Kanban"
+        },
+        "main" : "#kanban-main"
+    },
+    "new-column" : "#kanban-add-column-btn",
+    "board" : "#kanban-board"
+}

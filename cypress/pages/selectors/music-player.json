@@ -1,0 +1,25 @@
+{
+    "window" : {
+        "screen" : "#window-player-de-música",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Player de Música"
+        },
+        "main" : "#musicplayer-main"
+    },
+    "title" : "#musicplayer-title",
+    "track-title" : "#musicplayer-track-title",
+    "track-artist" : "#musicplayer-track-artist",
+    "progress-bar" : "#musicplayer-progress-bar",
+    "current-time" : "#musicplayer-current-time",
+    "duration" : "#musicplayer-duration",
+    "volume" : "#musicplayer-volume-bar",
+    "btnPrev" : "#musicplayer-prev-btn",
+    "btnShuffle" : "#musicplayer-shuffle-btn",
+    "btnPlay" : "#musicplayer-play-btn",
+    "btnRepeat" : "#musicplayer-repeat-btn",
+    "btnNext" : "#musicplayer-next-btn",
+    "btnAddMusic" : "[title='Adicionar músicas']",
+    "music-list" : "#musicplayer-playlist-list",
+    "music-list-item" : "#musicplayer-track-"
+}

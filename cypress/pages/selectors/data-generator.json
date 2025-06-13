@@ -1,0 +1,33 @@
+{
+    "window" : {
+        "screen" : "#window-gerador-de-dados-falsos",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Gerador de Dados Falsos"
+        },
+        "main" : "#fakedata-main"
+    },
+    "title" : {
+        "selector" : "#fakedata-title",
+        "text" : "Gerador de Dados Fakes"
+    },
+    "data-type" : {
+        "selector" : "#fakedata-type-group",
+        "options" : {
+            "nome-completo" : "#fakedata-type-option-name",
+            "email" : "#fakedata-type-option-email",
+            "phone" : "#fakedata-type-option-phone",
+            "cpf" : "#fakedata-type-option-cpf",
+            "cnpj" : "#fakedata-type-option-cnpj",
+            "date" : "#fakedata-type-option-date",
+            "address" : "#fakedata-type-option-address",
+            "city" : "#fakedata-type-option-city",
+            "state" : "#fakedata-type-option-state",
+            "cep" : "#fakedata-type-option-zip",
+            "lorem-ipsum" : "#fakedata-type-option-lorem"
+        }
+    },
+    "btnGenerate" : "#fakedata-generate-btn",
+    "result" : "#fakedata-result",
+    "btnCopy" : "#fakedata-copy-btn"
+}

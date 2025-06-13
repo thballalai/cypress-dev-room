@@ -1,0 +1,26 @@
+{
+    "window" : {
+        "screen" : "#window-checklist-de-deploy",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Checklist de Deploy"
+        },
+        "main" : "#deploy-main"
+    },
+    "title" : {
+        "selector" : "#deploy-title",
+        "text" : "Checklist de Deploy"
+    },
+    "form" : {
+        "selector" : "#deploy-form",
+        "input" : "#deploy-input",
+        "btnAdd" : "#deploy-add-btn"
+    },
+    "actions" : {
+        "selector" : "#deploy-actions",
+        "reset" : "#deploy-reset-btn",
+        "restore" : "#deploy-restore-btn",
+        "export" : "#deploy-export-btn",
+        "import" : "#deploy-import-btn"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "window" : {
+        "screen" : "#window-busca",
+        "title" : {
+            "selector" : "#window-title",
+            "name" : "Busca"
+        },
+        "main" : "#search-main"
+    },
+    "form" : {
+        "selector" : "#search-form",
+        "input-search" : "#search-input",
+        "btnSearch" : "#search-btn"
+    },
+    "search-results" : "#search-results"
+}
