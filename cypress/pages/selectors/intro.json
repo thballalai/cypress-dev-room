@@ -1,0 +1,15 @@
+{
+    "onboarding": {
+        "btnNext": {
+            "1" : "#onboarding-next-btn-0",
+            "2" : "#onboarding-next-btn-1",
+            "3" : "#onboarding-next-btn-2",
+            "4" : "#onboarding-next-btn-3",
+            "skipLogin": "#onboarding-skip-login-btn",
+            "githubLogin": "#onboarding-github-btn",
+            "saveNameBtn" : "#onboarding-save-name-btn",
+            "finish" : "#onboarding-finish-btn"
+        },
+        "inputName": "#onboarding-name-input"
+    }
+}
