@@ -20,6 +20,8 @@
     "btnRepeat" : "#musicplayer-repeat-btn",
     "btnNext" : "#musicplayer-next-btn",
     "btnAddMusic" : "[title='Adicionar músicas']",
-    "music-list" : "#musicplayer-playlist-list",
-    "music-list-item" : "#musicplayer-track-"
+    "music-input": "#file-input",
+    "music-list" : "#musicplayer-playlist-list li",
+    "music-list-item" : "#musicplayer-track-",
+    "audio" : "#musicplayer-audio"
 }

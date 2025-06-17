@@ -14,6 +14,11 @@
         "btnSet" : "#timer-set-btn"
     },
     "display" : "#timer-display",
-    "btnPlay" : "#timer-toggle-btn",
+    "btnPlay" : {
+        "_" : "#timer-toggle-btn",
+        "textDefault" : "Iniciar",
+        "textPause" : "Pausar",
+        "textContinuar" : "Continuar"
+    },
     "btnReset" : "#timer-reset-btn"
 }
